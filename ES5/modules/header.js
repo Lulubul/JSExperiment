@@ -19,7 +19,7 @@ var Header = (function() {
 
     function getMenuElements() {
         return menuTitles.map(function(title) {
-            var li = document.createElement("li");        // Create a <button> element
+            var li = document.createElement("li");        // Create a <li> element
             var text = document.createTextNode(title);       // Create a text node
             li.appendChild(text);
             return li;

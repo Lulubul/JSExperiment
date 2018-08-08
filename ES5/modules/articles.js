@@ -13,7 +13,7 @@ var Articles = (function() {
 
     function getArticleElements() {
         return articles.map(function(articleTitle) {
-            var article = document.createElement("article");        // Create a <button> element
+            var article = document.createElement("article");        // Create a <article> element
             var text = document.createTextNode(articleTitle);       // Create a text node
             article.appendChild(text);
             return article;

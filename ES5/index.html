@@ -20,21 +20,8 @@
     </section>
 
     <script src="modules/header.js"></script>
-    <script src="modules/page.js"></script>
     <script src="modules/articles.js"></script>
-    <script>
-        var menu = document.getElementsByClassName("menu")[0];
-        var menuElements = Header.getMenuElements();
-        menuElements.forEach(element => {
-            menu.appendChild(element);
-        });
-
-        var articles = document.getElementsByClassName("container")[0];
-        var articlesElements = Articles.getArticleElements();
-        articlesElements.forEach(element => {
-            articles.appendChild(element);
-        });
-    </script>
+    <script src="modules/page.js"></script>
 
 </body>
 </html>
