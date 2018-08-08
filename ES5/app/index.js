@@ -1,7 +1,5 @@
 // require('./modules/header.js');
 // require('./modules/articles.js');
-declare Header, Articles;
-
 var Page = (function(headerModule, articlesModule) {
 
 	var createMenu = function createMenu(parentElement) {
